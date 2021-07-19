@@ -1,0 +1,155 @@
+/**
+Custom style
+Author: Leifer Mendez
+ */
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+.button-over-zoom:hover {
+  transform: scale(1.1);
+  -webkit-transition: all 200ms ease-out;
+  -moz-transition: all 200ms ease-out;
+  -o-transition: all 200ms ease-out;
+  transition: all 200ms ease-out;
+}
+
+.img-block {
+  height: 515px;
+  object-fit: cover;
+  box-shadow: 0 0 20px rgba(158, 158, 158, 0.66);
+}
+
+.less-text-more-1 {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+}
+
+.less-text-more-2 {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
+
+.less-text-more-3 {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+}
+
+.less-text-more-4 {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 4;
+  -webkit-box-orient: vertical;
+}
+
+.less-text-more-5 {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 5;
+  -webkit-box-orient: vertical;
+}
+
+.less-text-more-6 {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 6;
+  -webkit-box-orient: vertical;
+}
+
+.read-more-link {
+  cursor: pointer;
+}
+
+.badge-free {
+  background-color: #27ae60;
+  padding: 0 .3rem;
+  color: white;
+  border-radius: 2px;
+}
+
+.badge-strike {
+  padding: .5rem;
+  color: gray;
+  line-height: .9rem;
+}
+
+.text-strike {
+  font-size: .8rem;
+  text-decoration: line-through;
+}
+
+.modal-video-light {
+  /*max-width: 400px;*/
+}
+
+.modal-video-light .modal-content {
+  background-color: #fff
+}
+
+.modal-light-plan {
+  margin-top: 4%;
+}
+
+.modal-light-plan .modal-content {
+  min-height: 30rem;
+  border-radius: 0px;
+  border: solid 0px white;
+  padding: 0;
+  box-shadow: 0 0 38px rgba(83, 83, 83, 0.41);
+}
+
+.modal-backdrop {
+  background-color: #DFDFE0;
+}
+
+:root {
+  --images-background: none
+}
+
+a {
+  color: #dc4d3e;
+}
+
+.text-black {
+  color: #000 !important;
+}
+
+.video-modal {
+  height: 35rem;
+  object-fit: cover;
+  /*background-color: white;*/
+}
+
+.video-modal video {
+  object-fit: cover;
+}
+
+.modal-video-light .modal-content .video-modal {
+  background-color: #fff
+}
+
+.modal-video-light {
+  width: 335px;
+}
+
+.modal-video-light .tap-info {
+  background: rgba(114, 114, 115, 0.7);
+  position: absolute;
+  z-index: 9;
+  padding: .5rem;
+  font-size: .8rem;
+  font-weight: 500;
+  color: white;
+}

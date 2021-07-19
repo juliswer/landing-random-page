@@ -1,0 +1,56 @@
+<section class="contact-section hiro-section">
+  <div class="container wow fadeInUp">
+    <h6 class="font-weight-semibold mb-4 mb-md-0">{{"BLOCK_TALK.CONTENT" | translate}}</h6>
+    <h2 class="section-title">{{"BLOCK_TALK.TITLE" | translate}}</h2>
+    <div class="contact-address">
+      <div class="row">
+        <div class="col-md-5">
+          <img src="../../../assets/images/logo-letras.svg" width="100px" alt="">
+          <!--          <p class="font-weight-medium" [innerHTML]="'BLOCK_TALK.ADDRESS' |translate"></p>-->
+        </div>
+        <div class="col-md-5 mb-4 mb-md-0">
+          <p class="font-weight-medium" [innerHTML]="'BLOCK_TALK.PHONE'| translate"></p>
+          <ul class="nav contact-social-links">
+            <!--            <li class="nav-item">-->
+            <!--              <a href="#!" class="nav-link">-->
+            <!--                <img src="assets/images/twitter@1x.svg" alt="twitter">-->
+            <!--              </a>-->
+            <!--            </li>-->
+            <!--            <li class="nav-item">-->
+            <!--              <a href="#!" class="nav-link">-->
+            <!--                <img src="assets/images/linkedin@1x.svg" alt="linkedin">-->
+            <!--              </a>-->
+            <!--            </li>-->
+            <li class="nav-item">
+              <a [href]="'GENERAL.LINK_FB' |translate" target="_blank" class="nav-link text-black">
+                <fa-icon [icon]="faFacebook" size="2x"></fa-icon>
+              </a>
+            </li>
+
+            <li class="nav-item">
+              <a target="_blank" [href]="'GENERAL.LINK_INSTAGRAM'| translate" class="nav-link text-black">
+                <fa-icon [icon]="faInstagram" size="2x"></fa-icon>
+              </a>
+            </li>
+            <!--            <li class="nav-item">-->
+            <!--              <a href="#!" class="nav-link">-->
+            <!--                <img src="assets/images/behance@1x.svg" alt="behance">-->
+            <!--              </a>-->
+            <!--            </li>-->
+            <!--            <li class="nav-item">-->
+            <!--              <a href="#!" class="nav-link">-->
+            <!--                <img src="assets/images/medium@1x.svg" alt="medium">-->
+            <!--              </a>-->
+            <!--            </li>-->
+          </ul>
+        </div>
+        <div class="col-md-2 d-flex align-items-end">
+          <a href="#top" class="go-top-btn">
+            <img src="assets/images/arrow_up@1x.svg" alt="arrow up">
+            <span class="sr-only">Go to top</span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

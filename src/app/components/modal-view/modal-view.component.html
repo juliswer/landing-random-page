@@ -1,0 +1,36 @@
+<div class="row m-0 p-0 col-12">
+  <div class="icon-close" (click)="bsModalRef.hide()">
+    <fa-icon [icon]="faTimes" size="lg"></fa-icon>
+  </div>
+  <div class="col-sm-12 col-md-8 col-xl-8 p-4">
+    <h3>{{data?.TITLE}} <span *ngIf="images[section]?.ICON">
+      <fa-icon [style.color]="'orange'" [icon]="images[section]?.ICON"></fa-icon>
+    </span></h3>
+    <h6>{{data?.SUB_TITLE}}</h6>
+    <div>
+      <p @swipe class="content-text">
+        {{data?.CONTENT}}
+      </p>
+      <div @swipe class="content-list content-text">
+        <ul>
+          <li *ngFor="let item of data?.LIST">
+            <fa-icon [icon]="faCheck"></fa-icon>
+            <span>{{item}}</span>
+          </li>
+        </ul>
+      </div>
+      <div class="text-center pt-4">
+        <a target="_blank" [href]="'GENERAL.WS' |translate" class="btn btn-link view-more link-hover-fx more">
+          {{"GENERAL.VIEW_MORE" |translate}}
+        </a>
+      </div>
+    </div>
+  </div>
+  <div class="col-4 section-image d-none d-sm-block d-md-block">
+    <!--    <ng-lottie-->
+    <!--      width="200px"-->
+    <!--      height="200px"-->
+    <!--      [options]="options" (animationCreated)="animationCreated($event)"></ng-lottie>-->
+  </div>
+
+</div>
